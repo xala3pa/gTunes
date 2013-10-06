@@ -9,6 +9,6 @@ class Song {
     static constraints = {
     	title blank: false
     	artist blank: false
-    	duration min: 1
+    	duration  nullable: true, min: 1
     }
 }
