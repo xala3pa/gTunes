@@ -1,2 +1,204 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites />
+<testsuites>
+  <testsuite errors="0" failures="0" hostname="xala3pa" id="0" name="AlbumControllerTests" package="com.gtunes" tests="1" time="0.213" timestamp="2013-10-13T09:42:35">
+      <properties />
+
+      <testcase classname="com.gtunes.AlbumControllerTests" name="testListAction" time="0.212" />
+
+      <system-out><![CDATA[--Output from testListAction--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testListAction--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="1" hostname="xala3pa" id="1" name="AlbumTests" package="com.gtunes" tests="1" time="0.515" timestamp="2013-10-13T09:42:30">
+      <properties />
+
+      <testcase classname="com.gtunes.AlbumTests" name="testSomething" time="0.418">
+          <failure message="junit.framework.AssertionFailedError: Implement me" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: junit.framework.AssertionFailedError: Implement me
+	at com.gtunes.AlbumTests.testSomething(AlbumTests.groovy:15)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="7" failures="1" hostname="xala3pa" id="2" name="SongControllerTests" package="com.gtunes" tests="8" time="1.852" timestamp="2013-10-13T09:42:31">
+      <properties />
+
+      <testcase classname="com.gtunes.SongControllerTests" name="testIndex" time="1.129">
+          <failure message="Assertion failed: &#xa;&#xa;assert &quot;/song/list&quot; == response.redirectedUrl&#xa;                    |  |        |&#xa;                    |  |        null&#xa;                    |  org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@538ff4f6&#xa;                    false&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert &quot;/song/list&quot; == response.redirectedUrl
+                    |  |        |
+                    |  |        null
+                    |  org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@538ff4f6
+                    false
+
+	at com.gtunes.SongControllerTests.testIndex(SongControllerTests.groovy:20)
+</failure>
+
+      </testcase>
+
+      <testcase classname="com.gtunes.SongControllerTests" name="testList" time="0.157">
+          <error message="No signature of method: com.gtunes.SongController.list() is applicable for argument types: () values: []&#xa;Possible solutions: is(java.lang.Object), wait(), find(), wait(long), with(groovy.lang.Closure), split(groovy.lang.Closure)" type="groovy.lang.MissingMethodException">groovy.lang.MissingMethodException: No signature of method: com.gtunes.SongController.list() is applicable for argument types: () values: []
+Possible solutions: is(java.lang.Object), wait(), find(), wait(long), with(groovy.lang.Closure), split(groovy.lang.Closure)
+	at com.gtunes.SongControllerTests.testList(SongControllerTests.groovy:25)
+</error>
+
+      </testcase>
+
+      <testcase classname="com.gtunes.SongControllerTests" name="testCreate" time="0.098">
+          <error message="No signature of method: com.gtunes.SongController.create() is applicable for argument types: () values: []&#xa;Possible solutions: grep(), chain(java.util.Map), render(groovy.lang.Closure), render(java.lang.Object), render(java.lang.String), render(java.util.Map)" type="groovy.lang.MissingMethodException">groovy.lang.MissingMethodException: No signature of method: com.gtunes.SongController.create() is applicable for argument types: () values: []
+Possible solutions: grep(), chain(java.util.Map), render(groovy.lang.Closure), render(java.lang.Object), render(java.lang.String), render(java.util.Map)
+	at com.gtunes.SongControllerTests.testCreate(SongControllerTests.groovy:32)
+</error>
+
+      </testcase>
+
+      <testcase classname="com.gtunes.SongControllerTests" name="testSave" time="0.074">
+          <error message="No signature of method: com.gtunes.SongController.save() is applicable for argument types: () values: []&#xa;Possible solutions: wait(), any(), wait(long), any(groovy.lang.Closure), sleep(long), isCase(java.lang.Object)" type="groovy.lang.MissingMethodException">groovy.lang.MissingMethodException: No signature of method: com.gtunes.SongController.save() is applicable for argument types: () values: []
+Possible solutions: wait(), any(), wait(long), any(groovy.lang.Closure), sleep(long), isCase(java.lang.Object)
+	at com.gtunes.SongControllerTests.testSave(SongControllerTests.groovy:38)
+</error>
+
+      </testcase>
+
+      <testcase classname="com.gtunes.SongControllerTests" name="testShow" time="0.066">
+          <error message="No signature of method: com.gtunes.SongController.show() is applicable for argument types: () values: []&#xa;Possible solutions: wait(), dump(), any(), find(), grep(), wait(long)" type="groovy.lang.MissingMethodException">groovy.lang.MissingMethodException: No signature of method: com.gtunes.SongController.show() is applicable for argument types: () values: []
+Possible solutions: wait(), dump(), any(), find(), grep(), wait(long)
+	at com.gtunes.SongControllerTests.testShow(SongControllerTests.groovy:54)
+</error>
+
+      </testcase>
+
+      <testcase classname="com.gtunes.SongControllerTests" name="testEdit" time="0.071">
+          <error message="No signature of method: com.gtunes.SongController.edit() is applicable for argument types: () values: []&#xa;Possible solutions: wait(), wait(long), wait(long, int), with(groovy.lang.Closure), getAt(java.lang.String), split(groovy.lang.Closure)" type="groovy.lang.MissingMethodException">groovy.lang.MissingMethodException: No signature of method: com.gtunes.SongController.edit() is applicable for argument types: () values: []
+Possible solutions: wait(), wait(long), wait(long, int), with(groovy.lang.Closure), getAt(java.lang.String), split(groovy.lang.Closure)
+	at com.gtunes.SongControllerTests.testEdit(SongControllerTests.groovy:72)
+</error>
+
+      </testcase>
+
+      <testcase classname="com.gtunes.SongControllerTests" name="testUpdate" time="0.066">
+          <error message="No signature of method: com.gtunes.SongController.update() is applicable for argument types: () values: []&#xa;Possible solutions: putAt(java.lang.String, java.lang.Object), split(groovy.lang.Closure), isCase(java.lang.Object), use([Ljava.lang.Object;), use(java.util.List, groovy.lang.Closure), use(java.lang.Class, groovy.lang.Closure)" type="groovy.lang.MissingMethodException">groovy.lang.MissingMethodException: No signature of method: com.gtunes.SongController.update() is applicable for argument types: () values: []
+Possible solutions: putAt(java.lang.String, java.lang.Object), split(groovy.lang.Closure), isCase(java.lang.Object), use([Ljava.lang.Object;), use(java.util.List, groovy.lang.Closure), use(java.lang.Class, groovy.lang.Closure)
+	at com.gtunes.SongControllerTests.testUpdate(SongControllerTests.groovy:90)
+</error>
+
+      </testcase>
+
+      <testcase classname="com.gtunes.SongControllerTests" name="testDelete" time="0.065">
+          <error message="No signature of method: com.gtunes.SongController.delete() is applicable for argument types: () values: []&#xa;Possible solutions: sleep(long), sleep(long, groovy.lang.Closure), every(), getAt(java.lang.String), split(groovy.lang.Closure), every(groovy.lang.Closure)" type="groovy.lang.MissingMethodException">groovy.lang.MissingMethodException: No signature of method: com.gtunes.SongController.delete() is applicable for argument types: () values: []
+Possible solutions: sleep(long), sleep(long, groovy.lang.Closure), every(), getAt(java.lang.String), split(groovy.lang.Closure), every(groovy.lang.Closure)
+	at com.gtunes.SongControllerTests.testDelete(SongControllerTests.groovy:135)
+</error>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="xala3pa" id="3" name="SongTests" package="com.gtunes" tests="1" time="0.308" timestamp="2013-10-13T09:42:33">
+      <properties />
+
+      <testcase classname="com.gtunes.SongTests" name="testMinimumDuration" time="0.208" />
+
+      <system-out><![CDATA[--Output from testMinimumDuration--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testMinimumDuration--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="1" hostname="xala3pa" id="4" name="StoreControllerTests" package="com.gtunes" tests="1" time="0.304" timestamp="2013-10-13T09:42:35">
+      <properties />
+
+      <testcase classname="com.gtunes.StoreControllerTests" name="testSomething" time="0.194">
+          <failure message="junit.framework.AssertionFailedError: Implement me" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: junit.framework.AssertionFailedError: Implement me
+	at com.gtunes.StoreControllerTests.testSomething(StoreControllerTests.groovy:15)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="xala3pa" id="5" name="UserControllerTests" package="com.gtunes" tests="6" time="1.387" timestamp="2013-10-13T09:42:33">
+      <properties />
+
+      <testcase classname="com.gtunes.UserControllerTests" name="testPasswordsDoNotMatch" time="0.289" />
+
+      <testcase classname="com.gtunes.UserControllerTests" name="testRegistrationFailed" time="0.119" />
+
+      <testcase classname="com.gtunes.UserControllerTests" name="testRegistrationSuccess" time="0.563" />
+
+      <testcase classname="com.gtunes.UserControllerTests" name="testLoginUserNotFound" time="0.142" />
+
+      <testcase classname="com.gtunes.UserControllerTests" name="testLoginFailurePasswordInvalid" time="0.088" />
+
+      <testcase classname="com.gtunes.UserControllerTests" name="testLoginSuccess" time="0.07" />
+
+      <system-out><![CDATA[--Output from testPasswordsDoNotMatch--
+--Output from testRegistrationFailed--
+--Output from testRegistrationSuccess--
+--Output from testLoginUserNotFound--
+--Output from testLoginFailurePasswordInvalid--
+--Output from testLoginSuccess--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testPasswordsDoNotMatch--
+--Output from testRegistrationFailed--
+--Output from testRegistrationSuccess--
+--Output from testLoginUserNotFound--
+--Output from testLoginFailurePasswordInvalid--
+--Output from testLoginSuccess--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="1" hostname="xala3pa" id="6" name="UserTests" package="com.gtunes" tests="1" time="0.646" timestamp="2013-10-13T09:42:31">
+      <properties />
+
+      <testcase classname="com.gtunes.UserTests" name="testSomething" time="0.185">
+          <failure message="junit.framework.AssertionFailedError: Implement me" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: junit.framework.AssertionFailedError: Implement me
+	at com.gtunes.UserTests.testSomething(UserTests.groovy:15)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+</testsuites>

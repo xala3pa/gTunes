@@ -2,5 +2,6 @@ package com.gtunes
 
 class StoreController {
 
-    def index() { }
+    def index() {
+    }
 }
