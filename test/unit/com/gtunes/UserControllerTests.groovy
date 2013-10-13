@@ -73,11 +73,11 @@ class UserControllerTests {
     void testLoginFailurePasswordInvalid() {
         request.method = 'POST'
 
-        def u = new User(login: 'maynard',
+        def user = new User(login: 'maynard',
                          firstName: 'Maynard',
                          lastName: 'Keenan',
                          password: 'undertow').save()
-        assert u != null
+        assert user != null
 
         params.login = 'maynard'
         params.password = 'lateralus'
